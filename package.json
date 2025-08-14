@@ -1,0 +1,25 @@
+{
+  "name": "ai-tasks-generator",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate AI task files",
+  "main": "index.js",
+  "bin": {
+    "ai-tasks": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "generator",
+    "ai",
+    "tasks",
+    "prd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.5"
+  }
+}
